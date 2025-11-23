@@ -4,7 +4,7 @@ import redis.asyncio as redis
 import asyncpg
 import os
 
-app = FastAPI(title="Redirect Service")
+app = FastAPI(title="Repidirect Service")
 
 # Configuration
 REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379")
